@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wordominoes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Menu Screen -->
+  <div id="menu">
+    <h1>Wordominoes</h1>
+    <button id="playButton" class="button">Play</button>
+    <button id="howToPlayButton" class="button">How to Play</button>
+  </div>
+
+  <!-- Game Container -->
+  <div id="gameContainer" style="display: none;">
+    <!-- Word Wheel -->
+    <div id="wordWheel"></div>
+
+    <!-- Control Buttons -->
+    <div id="gameButtons">
+      <button id="deleteButton" class="button">Delete</button>
+      <button id="enterButton" class="button">Enter</button>
+    </div>
+
+    <!-- Displayed Words -->
+    <div id="wordsArea"></div>
+
+    <!-- Character Count -->
+    <div id="characterCount">Character count: 0</div>
+
+    <!-- Lives Display and Reset/Finish Buttons -->
+    <div id="livesDisplay">Lives: ...</div>
+    <button id="resetButton" class="button">Reset</button>
+    <button id="finishButton" class="button" style="display: none;">Finish</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
